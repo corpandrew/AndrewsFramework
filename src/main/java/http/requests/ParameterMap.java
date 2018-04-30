@@ -10,7 +10,7 @@ public class ParameterMap extends HashMap<String, Object>{
 
     public ParameterMap put(String key, String value) {
         if(key != null && value != null)
-            this.put(key, value);
+            super.put(key, value);
         return this;
     }
 }

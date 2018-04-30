@@ -7,7 +7,7 @@ public class Options {
 
     private static Map<String, Object> defaultParamMap = new HashMap<>();
 
-    public void addDefaultParam(String key, Object value) {
+    public static void addDefaultParam(String key, Object value) {
         defaultParamMap.put(key, value);
     }
 
